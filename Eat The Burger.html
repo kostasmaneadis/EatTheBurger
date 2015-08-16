@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Eat The Burger</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="js/java.js"></script>
+<script type="text/javascript" src="js/java2.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body id="body" onload="putRandom()">
+<div id = "mydiv" onmouseover="megalo()" onmouseout="mikro()">O<br>D<br>I<br>G<br>I<br>E<br>S</div>
+<img src="image/a.png" id="goal">
+<img src="image/1.png" id="myimg">
+
+<div id=logindiv>
+	<input type="text" id="login" value="Register/Login" onclick="login()">
+	<input type="button" value="Login" id="loginb" onclick="loginb()" >
+</div>
+
+<input type="button" value="Start" id="sbut" onclick="start()"><br>
+<input type="button" value="Up" id="butu" onclick="timeru()" disabled>
+<input type="button" value="Left" id="butl" onclick="timerl()" disabled>
+<input type="button" value="Right" id="butr" onclick="timerr()" disabled>
+<input type="button" value="Down" id="butd" onclick="timerd()" disabled>
+<input type="button" value="Stop" id="buts" onclick="stop()" disabled>
+
+<table id="mytable" >
+	<tr>
+		<td></td>
+	</tr>
+</table>
+<table  border="1" id="leaderboard" cellpadding="5">
+	<tr>
+		<td>Kostas</td>
+		<td>3</td>
+	</tr>
+	<tr>
+		<td>Ares</td>
+		<td>5</td>
+	</tr>
+</table>
+<p id="label">Gia na ksekinisete, pathste "Start"
+<br> Gia odigies phgaine to pontiki sto kitrino
+</p>
+
+
+
+</body>
+</html>
